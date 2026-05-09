@@ -73,7 +73,7 @@ export function BrowserFrame({
                 <div className="mt-3 text-2xl font-semibold text-ink">{title}</div>
                 <div className="mt-3 text-sm leading-6 text-navy/65">
                   Add <span className="font-semibold">{src}</span> to
-                  <span className="font-semibold"> showcase/public/assets/</span> to
+                  <span className="font-semibold"> public/assets/</span> to
                   display the real NOTIFY screen here.
                 </div>
               </div>

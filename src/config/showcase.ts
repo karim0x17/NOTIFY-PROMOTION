@@ -1,19 +1,21 @@
+const asset = (fileName: string) => `${import.meta.env.BASE_URL}assets/${fileName}`
+
 export const showcaseAssets = {
-  // Replace these files in showcase/public/assets/ with your real NOTIFY screens.
-  logo: '/assets/notify-logo.png',
-  dashboardHome: '/assets/dashboard-home.png',
-  alertCreation: '/assets/alert-creation.png',
-  campusMap: '/assets/campus-map.png',
-  analytics: '/assets/analytics.png',
-  usersPermissions: '/assets/users-permissions.png',
-  adminAlerts: '/assets/alerts-admin.png',
-  adminCourses: '/assets/courses-admin.png',
+  // Replace these files in public/assets/ with your real NOTIFY screens.
+  logo: asset('notify-logo.png'),
+  dashboardHome: asset('dashboard-home.png'),
+  alertCreation: asset('alert-creation.png'),
+  campusMap: asset('campus-map.png'),
+  analytics: asset('analytics.png'),
+  usersPermissions: asset('users-permissions.png'),
+  adminAlerts: asset('alerts-admin.png'),
+  adminCourses: asset('courses-admin.png'),
   mobile: {
-    student: '/assets/mobile-student.png',
-    teacher: '/assets/mobile-teacher.png',
-    technician: '/assets/mobile-technician.png',
-    staff: '/assets/mobile-staff.png',
-    admin: '/assets/mobile-admin.png',
+    student: asset('mobile-student.png'),
+    teacher: asset('mobile-teacher.png'),
+    technician: asset('mobile-technician.png'),
+    staff: asset('mobile-staff.png'),
+    admin: asset('mobile-admin.png'),
   },
 } as const
 

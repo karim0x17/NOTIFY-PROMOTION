@@ -23,6 +23,22 @@ npm run dev
 npm run build
 ```
 
+## Deploy with GitHub Actions
+
+The repo is configured to deploy automatically to GitHub Pages on every push to `main`.
+
+Expected live URL:
+
+`https://karim0x17.github.io/NOTIFY-PROMOTION/`
+
+One-time GitHub setting:
+
+1. Open the repository on GitHub.
+2. Go to `Settings` -> `Pages`.
+3. Under `Source`, choose `GitHub Actions`.
+
+After that, every new push to `main` will rebuild and redeploy the showcase automatically.
+
 ## Assets
 
 Replace the real product screenshots in `public/assets/` as needed. The main filenames used by the showcase are:
